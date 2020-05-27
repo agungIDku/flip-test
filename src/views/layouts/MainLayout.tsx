@@ -2,8 +2,8 @@ import React,{Suspense} from 'react'
 
 const MainLayout = ({Container}:{Container:any}) => {
     return(
-        <div>
-            <Suspense fallback={<p>loading ...</p>}>
+        <div className="container">
+            <Suspense fallback={<div className="loader">Loading...</div>}>
                 <Container/>
             </Suspense>
         </div>

@@ -14,6 +14,9 @@ import {Helmet} from 'react-helmet'
 // Layout
 import MainLayout from '@/views/layouts/MainLayout'
 
+// Main CSS
+import '@/assets/css/main.css'
+
 function App(){
   return(
       <Provider store={configureStore()}>
